@@ -1,0 +1,8 @@
+E:\begvcsharp\PicView\PicView\bin\Debug\PicView.exe
+E:\begvcsharp\PicView\PicView\bin\Debug\PicView.pdb
+E:\begvcsharp\PicView\PicView\obj\Debug\ResolveAssemblyReference.cache
+E:\begvcsharp\PicView\PicView\obj\Debug\PicView.Form1.resources
+E:\begvcsharp\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+E:\begvcsharp\PicView\PicView\obj\Debug\PicView.csproj.GenerateResource.Cache
+E:\begvcsharp\PicView\PicView\obj\Debug\PicView.exe
+E:\begvcsharp\PicView\PicView\obj\Debug\PicView.pdb

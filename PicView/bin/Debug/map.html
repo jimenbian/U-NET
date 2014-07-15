@@ -1,0 +1,201 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<style type="text/css">
+body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+#l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+#r-result{height:100%;width:20%;float:left;}-->-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>全插件</title>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=FFfee5ba9ee4596e333be14a1bded61e"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
+</head>
+<body>
+<div style="width:100%;height:100%;border:1px solid gray" id="container"></div>
+<input type="button" value="开启测距" onclick="myDis.open();" />
+<input type="button" value="关闭测距" onclick="myDis.close();" />
+
+<div id="results" style="font-size:13px;margin-top:10px;"></div>
+</body>
+</html>
+<script type="text/javascript">
+//map.addControl(new BMap.NavigationControl()); // 添加平移缩放控件
+//map.addControl(new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT}));//地图|卫星|三维 控件
+//map.setCurrentCity("北京");
+//百度map API  http://dev.baidu.com/wiki/static/map/API/examples/?v=1.3&3_0#3&0
+var map = new BMap.Map("container");          // 创建Map实例
+var point = new BMap.Point(117.025, 36.666);  // 创建点坐标
+var myDis = new BMapLib.DistanceTool(map);   //测距插件
+map.centerAndZoom(point,13);                  // 初始化地图,设置中心点坐标和地图级别。
+map.enableScrollWheelZoom();                  // 启用滚轮放大缩小。
+map.enableKeyboard();                         // 启用键盘操作。
+map.addControl(new BMap.ScaleControl());         // 添加比例尺控件
+map.addControl(new BMap.OverviewMapControl());   //添加缩略地图控件
+var opts = {type: BMAP_NAVIGATION_CONTROL_SMALL} // 添加平移缩放控件(个性化)
+map.addControl(new BMap.NavigationControl(opts));// 添加平移缩放控件(个性化)
+map.addControl(new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]}));//地图|混合 控件
+//=======================================
+
+var icon = new BMap.Icon('site1.png', new BMap.Size(72, 64), {
+    anchor: new BMap.Size(20, 20)
+});
+
+var marker1 = new BMap.Marker(new BMap.Point(117.025, 36.666),{icon: icon});  // 创建标注
+var marker2;
+var circle = new BMap.Circle(new BMap.Point(117.028, 36.666),4500);
+
+var circle1 = new BMap.Circle(new BMap.Point(117.058, 36.656),2500,{fillColor:"blue"});
+var circle1point1=new BMap.Point(117.058, 36.656);
+
+var circle2 = new BMap.Circle(new BMap.Point(117.025, 36.686),2500,{fillColor:"blue"});
+var circle1point2=new BMap.Point(117.025, 36.686);
+
+var circle3 = new BMap.Circle(new BMap.Point(117.000, 36.652),2500,{fillColor:"blue"});
+var circle1point3=new BMap.Point(117.000, 36.652);
+
+function addTransciever1()
+{
+map.addOverlay(circle1);
+}
+function addTransciever2()
+{map.addOverlay(circle2);}
+function addTransciever3()
+{map.addOverlay(circle3);}
+function removeTransciever1()
+{map.removeOverlay(circle1);}
+
+function removeTransciever2()
+{map.removeOverlay(circle2);}
+
+function removeTransciever3()
+{map.removeOverlay(circle3);}
+
+
+
+
+
+function addsite()
+{
+map.addOverlay(marker1); 
+marker1.enableDragging(); 
+
+
+map.addOverlay(circle);} 
+var marker3;
+var contextMenu = new BMap.ContextMenu();//创建右键对象
+
+var txtMenuItem = [
+  
+  { text:'在此添加标注',
+   callback:function(p){
+    marker3 = new BMap.Marker(p);
+   marker2 =marker3.getPosition();
+	map.addOverlay(marker3);
+
+       	   }},
+
+{text:'删除',
+callback:function(){
+        map.removeOverlay(marker3);
+       	   }
+ }	   
+ ];
+
+
+for(var i=0; i < txtMenuItem.length; i++){
+ contextMenu.addItem(new BMap.MenuItem(txtMenuItem[i].text,txtMenuItem[i].callback,100));
+ if(i==1 || i==3) {
+  contextMenu.addSeparator();
+ }
+}
+circle.addContextMenu(contextMenu);
+
+
+
+
+var result1;
+var point1;
+var point2;
+myDis.addEventListener("drawend", function(e) 
+{  result1=e.distance;
+alert(result1); 
+    });
+function  getdistance()
+{return result1;} 
+
+
+function matchdistance1()
+{var a1=map.getDistance(marker2,circle1point1);
+return a1; }
+
+function matchdistance2()
+{var a2=map.getDistance(marker2,circle1point2);
+return a2; }
+
+function matchdistance3()
+{var a3=map.getDistance(marker2,circle1point3);
+return a3; }
+
+function matchdistance4()
+{var a4=map.getDistance(marker2,point);
+return a4;
+}
+
+function addline()
+{var polyline = new BMap.Polyline([
+  marker2,
+   new BMap.Point(117.030, 36.664)
+], {strokeColor:"blue", strokeWeight:6, strokeOpacity:0.5});
+map.addOverlay(polyline);}
+
+
+var sContent =
+"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>Site0</h4>" + 
+"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>坐标：（117.025, 36.666） 功率：1000</p>" + 
+"</div>";
+ 
+var infoWindow = new BMap.InfoWindow(sContent);
+
+marker1.addEventListener("click", function(){          
+   this.openInfoWindow(infoWindow);
+   //图片加载完毕重绘infowindow
+      });
+
+function maxmap()
+{ 
+ map.setZoom(map.getZoom() + 1);
+}
+
+function minmap()
+{ 
+ map.setZoom(map.getZoom() - 1);
+}
+
+function setzoom1()
+{ map.setZoom(12); }
+
+
+function setzoom2()
+{ map.setZoom(13); }
+
+
+function setzoom3()
+{ map.setZoom(14); }
+
+
+function setzoom4()
+{ map.setZoom(15); }
+
+function refresh()
+{ history.go(0);   }
+
+function saveHtml() {
+   
+  
+   
+}
+</script>

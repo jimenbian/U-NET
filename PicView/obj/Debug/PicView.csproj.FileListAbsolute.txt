@@ -1,0 +1,56 @@
+F:\test\PicView\PicView\obj\Debug\PicView.exe
+F:\test\PicView\PicView\obj\Debug\PicView.pdb
+F:\test\PicView\PicView\bin\Debug\PicView.exe
+F:\test\PicView\PicView\bin\Debug\PicView.pdb
+F:\test\PicView\PicView\obj\Debug\ResolveAssemblyReference.cache
+F:\test\PicView\PicView\obj\Debug\PicView.Form1.resources
+F:\test\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+F:\test\PicView\PicView\bin\Debug\map.html
+F:\test\PicView\PicView\obj\Debug\GenerateResource.read.1.tlog
+F:\test\PicView\PicView\obj\Debug\GenerateResource.write.1.tlog
+F:\test\PicView\PicView\obj\Debug\PicView.Form2.resources
+I:\workspace1\PicView\PicView\obj\Debug\PicView.exe
+I:\workspace1\PicView\PicView\obj\Debug\PicView.pdb
+I:\workspace1\PicView\PicView\bin\Debug\map.html
+I:\workspace1\PicView\PicView\bin\Debug\PicView.exe
+I:\workspace1\PicView\PicView\bin\Debug\PicView.pdb
+I:\workspace1\PicView\PicView\obj\Debug\PicView.Form1.resources
+I:\workspace1\PicView\PicView\obj\Debug\PicView.Form2.resources
+I:\workspace1\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+I:\workspace1\PicView\PicView\obj\Debug\PicView.csproj.GenerateResource.Cache
+I:\workspace1\PicView\PicView\obj\Debug\PicView.csprojResolveAssemblyReference.cache
+I:\workspace1\PicView\PicView\obj\Debug\PicView.Form3.resources
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.exe
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.pdb
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\bin\Debug\map.html
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\bin\Debug\PicView.exe
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\bin\Debug\PicView.pdb
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.csprojResolveAssemblyReference.cache
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.Form1.resources
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.Form2.resources
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.Form3.resources
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+D:\新建文件夹\chrom app\workspace1\PicView\PicView\obj\Debug\PicView.csproj.GenerateResource.Cache
+I:\workspace2\PicView\PicView\obj\Debug\PicView.exe
+I:\workspace2\PicView\PicView\obj\Debug\PicView.pdb
+I:\workspace2\PicView\PicView\bin\Debug\map.html
+I:\workspace2\PicView\PicView\bin\Debug\PicView.exe
+I:\workspace2\PicView\PicView\bin\Debug\PicView.pdb
+I:\workspace2\PicView\PicView\obj\Debug\PicView.csprojResolveAssemblyReference.cache
+I:\workspace2\PicView\PicView\obj\Debug\PicView.Form1.resources
+I:\workspace2\PicView\PicView\obj\Debug\PicView.Form2.resources
+I:\workspace2\PicView\PicView\obj\Debug\PicView.Form3.resources
+I:\workspace2\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+I:\workspace2\PicView\PicView\obj\Debug\PicView.csproj.GenerateResource.Cache
+I:\workspace3\PicView\PicView\obj\Debug\PicView.exe
+I:\workspace3\PicView\PicView\obj\Debug\PicView.pdb
+I:\workspace3\PicView\PicView\bin\Debug\map.html
+I:\workspace3\PicView\PicView\bin\Debug\PicView.exe
+I:\workspace3\PicView\PicView\bin\Debug\PicView.pdb
+I:\workspace3\PicView\PicView\obj\Debug\PicView.csprojResolveAssemblyReference.cache
+I:\workspace3\PicView\PicView\obj\Debug\PicView.Form1.resources
+I:\workspace3\PicView\PicView\obj\Debug\PicView.Form2.resources
+I:\workspace3\PicView\PicView\obj\Debug\PicView.Form3.resources
+I:\workspace3\PicView\PicView\obj\Debug\PicView.Properties.Resources.resources
+I:\workspace3\PicView\PicView\obj\Debug\PicView.csproj.GenerateResource.Cache
+I:\workspace3\PicView\PicView\bin\Debug\PicView.exe.config

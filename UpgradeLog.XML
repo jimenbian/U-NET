@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PicView">
+</Property><Property Name="解决方案文件" Value="F:\test\PicView\PicView.sln">
+</Property><Property Name="用户选项文件" Value="F:\test\PicView\PicView.suo">
+</Property><Property Name="Date" Value="2013年7月16日">
+</Property><Property Name="Time" Value="14:50">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PicView.sln" Description="文件已成功备份为 F:\test\PicView\Backup\PicView.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PicView.suo" Description="文件已成功备份为 F:\test\PicView\Backup\PicView.suo">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\PicView.csproj" Description="项目文件已成功备份为 F:\test\PicView\Backup\PicView\PicView.csproj">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Form1.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Form1.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Form1.Designer.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Program.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Program.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Properties\Resources.Designer.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Properties\Settings.Designer.cs" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Properties\Settings.settings" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Resources\201001231305484375000.jpg" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Resources\201001231305484375000.jpg">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Form1.resx" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Form1.resx">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\Properties\Resources.resx" Description="文件已成功备份为 F:\test\PicView\Backup\PicView\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\PicView.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="PicView" Source="PicView\PicView.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PicView.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="PicView.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PicView" Source="PicView\PicView.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
